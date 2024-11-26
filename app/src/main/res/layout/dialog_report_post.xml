@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Radio Group for Report Options -->
+    <RadioGroup
+        android:id="@+id/rgReportOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbWrongInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inaccurate Information" />
+
+        <RadioButton
+            android:id="@+id/rbInappropriateContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inappropriate Content" />
+
+        <RadioButton
+            android:id="@+id/rbUnrelatedContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unrelated Content" />
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Submit Report" />
+</LinearLayout>
